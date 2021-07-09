@@ -24,6 +24,7 @@
             "guildOnly: false,",
             "callback: ({message, channel, args, text, client, prefix, instance}) =>",
             "   {",
+            "",
             "   }",
             "}"
         ],
