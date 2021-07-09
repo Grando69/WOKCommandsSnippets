@@ -1,0 +1,32 @@
+// in file 'Code/User/snippets/javascript.json
+{
+    "NewFile": {
+        "prefix": [
+            "WOK",
+            "wok"
+        ],
+        "body": [
+            "module.exports =",
+            "{",
+            "name: '',",
+            "description: '',",
+            "aliases: ['', '',],",
+            "minArgs: 0,",
+            "maxArgs: 0,",
+            "//expectedArgs: '[Reason]',",
+            "//syntaxError: 'Incorrect syntax! Use `{PREFIX}`ping {ARGUMENTS}',",
+            "//permissions: ['ADMINISTRATOR'],",
+            "//cooldown: '60s',",
+            "//globalCooldown: '10m',",
+            "hidden: false,",
+            "ownerOnly: false,",
+            "testOnly: false,",
+            "guildOnly: false,",
+            "callback: ({message, channel, args, text, client, prefix, instance}) =>",
+            "   {",
+            "   }",
+            "}"
+        ],
+        "description": "Auto-magically writes the start of a new Discord command for you!"
+    }
+}
