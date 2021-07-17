@@ -30,16 +30,18 @@
         ],
         "description": "New Discord command for you!"
     },
-    "New File":{
+    "New File": {
         "prefix": [
             "feat",
             "feature"
         ],
-        "body": ["module.exports = (client) => {",
-                 "client.on('', () => {",
-                 "",
-                "})"],
-                
+        "body": [
+            "module.exports = (client) => {",
+            "client.on('', () => {",
+            "",
+            "})",
+            "}"
+        ],
         "description": "New WOKCOMMANDS feature for you!"
     }
 }
