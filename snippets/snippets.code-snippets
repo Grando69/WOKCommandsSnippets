@@ -3,11 +3,12 @@
     "NewFile": {
         "prefix": [
             "WOK",
-            "wok"
+            "wok",
+            "com",
+            "command"
         ],
         "body": [
-            "module.exports =",
-            "{",
+            "module.exports = {",
             "name: '',",
             "description: '',",
             "aliases: ['', '',],",
@@ -22,12 +23,23 @@
             "ownerOnly: false,",
             "testOnly: false,",
             "guildOnly: false,",
-            "callback: ({message, channel, args, text, client, prefix, instance}) =>",
-            "   {",
+            "callback: ({message, channel, args, text, client, prefix, instance}) => {",
             "",
             "   }",
             "}"
         ],
-        "description": "Auto-magically writes the start of a new Discord command for you!"
+        "description": "New Discord command for you!"
+    },
+    "New File":{
+        "prefix": [
+            "feat",
+            "feature"
+        ],
+        "body": ["module.exports = (client) => {",
+                 "client.on('', () => {",
+                 "",
+                "})"],
+                
+        "description": "New WOKCOMMANDS feature for you!"
     }
 }
