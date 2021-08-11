@@ -1,7 +1,7 @@
 // in file 'Code/User/snippets/javascript.json
 {
   "NewFile": {
-    "prefix": ["WOK", "wok", "com", "command"],
+    "prefix": ["com", "command"],
     "body": [
       "module.exports = {",
       "name: '',",
