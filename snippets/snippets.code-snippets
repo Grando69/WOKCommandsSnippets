@@ -1,47 +1,40 @@
 // in file 'Code/User/snippets/javascript.json
 {
-    "NewFile": {
-        "prefix": [
-            "WOK",
-            "wok",
-            "com",
-            "command"
-        ],
-        "body": [
-            "module.exports = {",
-            "name: '',",
-            "description: '',",
-            "aliases: ['', '',],",
-            "minArgs: 0,",
-            "maxArgs: 0,",
-            "//expectedArgs: '[Reason]',",
-            "//syntaxError: 'Incorrect syntax! Use `{PREFIX}`ping {ARGUMENTS}',",
-            "//permissions: ['ADMINISTRATOR'],",
-            "//cooldown: '60s',",
-            "//globalCooldown: '10m',",
-            "hidden: false,",
-            "ownerOnly: false,",
-            "testOnly: false,",
-            "guildOnly: false,",
-            "callback: ({message, channel, args, text, client, prefix, instance}) => {",
-            "",
-            "   }",
-            "}"
-        ],
-        "description": "New Discord command for you!"
-    },
-    "New File": {
-        "prefix": [
-            "feat",
-            "feature"
-        ],
-        "body": [
-            "module.exports = (client) => {",
-            "client.on('', () => {",
-            "",
-            "})",
-            "}"
-        ],
-        "description": "New WOKCOMMANDS feature for you!"
-    }
+  "NewFile": {
+    "prefix": ["WOK", "wok", "com", "command"],
+    "body": [
+      "module.exports = {",
+      "name: '',",
+      "description: '',",
+      "category: '',",
+      "aliases: ['', '',],",
+      "minArgs: 0,",
+      "maxArgs: 0,",
+      "expectedArgs: '',",
+      "syntaxError: 'Incorrect syntax! Use `{PREFIX}` COMMANDNAME {ARGUMENTS}',",
+      "permissions: [''],",
+      "cooldown: '0s',",
+      "globalCooldown: '0m',",
+      "hidden: false,",
+      "ownerOnly: false,",
+      "testOnly: false,",
+      "guildOnly: false,",
+      "callback: ({message, channel, args, text, client, prefix, instance}) => {",
+      "",
+      "   }",
+      "}"
+    ],
+    "description": "New Discord command for you!"
+  },
+  "New File": {
+    "prefix": ["feat", "feature"],
+    "body": [
+      "module.exports = (client, instance) => {",
+      "client.on('', () => {",
+      "",
+      "})",
+      "}"
+    ],
+    "description": "New WOKCOMMANDS feature for you!"
+  }
 }
