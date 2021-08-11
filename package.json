@@ -1,7 +1,8 @@
 {
-  "name": "newwokcommandsfile",
+  "name": "wokcommandssnippets",
   "displayName": "WOKCommandsSnippets",
   "description": "Makes a new file for the WOKcommands npm package",
+  "publisher": "Grando",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.58.0"
