@@ -2,7 +2,10 @@
   "name": "wokcommandssnippets",
   "displayName": "WOKCommandsSnippets",
   "description": "Makes a new file for the WOKcommands npm package",
-  "publisher": "Grando",
+  "publisher": "Grando69",
+  "repository": {
+    "url": "https://github.com/Grando69/WOKCommandsSnippets"
+  },
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.58.0"
