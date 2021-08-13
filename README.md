@@ -1,4 +1,4 @@
-# WOKCommandsSnippets README
+# WOKCommandsSnippets
 
 An extenstion that will help yout to write Discord commands and features using the WOKCommandhandeler
 
@@ -15,9 +15,7 @@ An extenstion that will help yout to write Discord commands and features using t
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
+This extension adds two simple snippets to help you write more Discord commands faster.
 
 ![Command Demo](demos/com_demo_2.gif)
 
