@@ -6,7 +6,7 @@
   "repository": {
     "url": "https://github.com/Grando69/WOKCommandsSnippets"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.58.0"
   },
@@ -17,7 +17,11 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/js-snippet.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/ts-snippet.code-snippets"
       }
     ]
   }

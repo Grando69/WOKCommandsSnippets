@@ -1,0 +1,51 @@
+// in file 'Code/User/snippets/typescript.json
+
+// in file 'Code/User/snippets/javascript.json
+{
+  "NewFile": {
+    "prefix": ["com", "command"],
+    "body": [
+      "import { ICommand } from 'wokcommands'",
+      "",
+      "export default {",
+      "name: '',",
+      "description: '',",
+      "category: '',",
+      "aliases: ['', '',],",
+      "minArgs: 0,",
+      "maxArgs: 0,",
+      "expectedArgs: '',",
+      "syntaxError: 'Incorrect syntax! Use `{PREFIX}` COMMANDNAME {ARGUMENTS}',",
+      "permissions: [''],",
+      "cooldown: '0s',",
+      "globalCooldown: '0m',",
+      "hidden: false,",
+      "ownerOnly: false,",
+      "testOnly: false,",
+      "guildOnly: false,",
+      "slash: false,",
+      "options: [],",
+      "error: ({ error, command, message, info }) => {",
+      "",
+      "   },",
+      "callback: ({ message, channel, args, text, client, prefix, instance }) => {",
+      "",
+      "   }",
+      "} as ICommand;"
+    ],
+    "description": "New Discord command for you!"
+  },
+  "New File": {
+    "prefix": ["feat", "feature"],
+    "body": [
+      "import { Client } from 'discord.js'",
+      "import WOKCommands from 'wokcommands'",
+      "export default (client: Client, instance: WOKCommand) => {",
+      "client.on('', () => {",
+      "",
+      "})",
+      "}"
+    ],
+    "description": "New WOKCOMMANDS feature for you!"
+  }
+}

@@ -19,7 +19,12 @@
       "ownerOnly: false,",
       "testOnly: false,",
       "guildOnly: false,",
-      "callback: ({message, channel, args, text, client, prefix, instance}) => {",
+      "slash: false,",
+      "options: [],",
+      "error: ({ error, command, message, info }) => {",
+      "",
+      "   },",
+      "callback: ({ message, channel, args, text, client, prefix, instance }) => {",
       "",
       "   }",
       "}"
