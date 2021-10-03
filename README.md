@@ -34,9 +34,13 @@ It is really easy for you to use.
 
 ## Release Notes
 
+### 1.1.0
+
+- Now with Typescript support.
+
 ### 1.0.0
 
-Initial release of WOKCommandsSnippets with hopefully many to come in the future
+- Initial release of WOKCommandsSnippets with hopefully many to come in the future
 
 ---
 

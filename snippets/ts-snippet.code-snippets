@@ -5,7 +5,7 @@
   "NewFile": {
     "prefix": ["com", "command"],
     "body": [
-      "import { ICommand } from 'wokcommands'",
+      "import { ICommand } from 'wokcommands';",
       "",
       "export default {",
       "name: '',",
@@ -38,8 +38,8 @@
   "New File": {
     "prefix": ["feat", "feature"],
     "body": [
-      "import { Client } from 'discord.js'",
-      "import WOKCommands from 'wokcommands'",
+      "import { Client } from 'discord.js';",
+      "import WOKCommands from 'wokcommands';",
       "export default (client: Client, instance: WOKCommand) => {",
       "client.on('', () => {",
       "",
